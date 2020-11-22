@@ -4,22 +4,23 @@ a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 
 h1 {
   border-bottom: 1px solid black;
   margin: 0;
-  padding: 25px;
+  padding: 30px;
 }
 
 h2 {
   text-align: center;
-  border-width: px;
+  border-width: 2px;
   border-color: green;
   border-style: solid;
-  width: 600px;
+  left: 5555555555555px;
+  width: 350px;
 }
 
 h3 {
@@ -27,16 +28,11 @@ h3 {
   border-width: 5px;
   border-color: green;
   border-style: solid;
-  width: 800px;
+  width: 500px;
 }
 
 h3 {
   display: flexbox;
-}
-
-ol {
-  border-right: 1px solid gray;
-  width: 250px;
 }
 
 .container {
@@ -48,18 +44,45 @@ ol {
 }
 
 ol {
-  border-right: 1px solid gray;
-  width: 150px;
+  border-right: 20px solid gray;
+  width: 160px;
   margin: 0;
-  padding: 30px;
+
+  padding-right: 20px;
 }
 body {
   margin: 0;
 }
 #grid {
-  border: 30px solid green;
+  border: 20px solid green;
   display: grid;
-  grid-template-columns: 600px 0fr;
+  grid-template-columns: 800px 2fr;
   text-align: left;
-  text size: 50px;
+  margin: 30px;
+}
+
+#문의내용 {
+  text-align: right;
+  font-size: 25px;
+}
+
+#식단 {
+  text-align: left;
+  font-size: 25px;
+}
+#일정 {
+  text-align: center;
+  font-size: 25px;
+}
+#홈피 {
+}
+
+#container {
+  float: left;
+}
+#card card-1 {
+  float: left;
+}
+#card card-3 {
+  float: right;
 }
