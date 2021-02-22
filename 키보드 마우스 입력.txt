@@ -1,0 +1,30 @@
+
+그럼날아봐
+2년 전(수정됨)
+#1. 키보드 마우스 입력
+
+Input: 게임 내 입력을 관리하는 클래스
+anyKeyDown: 아무 입력을 최초로 받을 때 true
+anyKey: 아무 입력을 받으면 true
+각 입력 함수는 3가지 행동으로 구분, Down: 눌렀을 때, Stay: 누르고 있을 때, Up: 눌렀다 뗐을 때
+GetKey: 키보드 버튼 입력을 받으면 true
+
+GetKeyDown, GetKey, GetKeyUp
+     
+if(Input.anyKeyDown)
+if(Input.GetKeyDown(KeyCode.Return))
+if(Input.GetKey(KeyCode.LeftArrow))
+if(Input.GetKeyUp(KeyCode.RightArrow))     
+
+GetMouse: 마우스버튼 입력을 받으면 true
+     
+if(Input.GetMouseButtonDown(0)) // 0은 마우스 왼쪽버튼, 1은 오른쪽 버튼
+if(Input.GetMouseButton(0))
+if(Input.GetMouseButtonUp(0))
+   
+유니티 상단 메뉴 Edit→ Project Settings →Input(Input Manager)에서 Button 설정가능
+
+GetButton: Input 버튼 입력을 받으면 true
+Button 새로 추가, 기존 변경 가능
+GetAxis: 수평, 수직 버튼 입력을 받으면 float
+오브젝트는 변수 transform을 항상 가지고 있음
